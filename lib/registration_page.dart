@@ -176,7 +176,7 @@ class _VisitorRegistryRoomState extends State<VisitorRegistryRoom> {
 
                   // Network Connection Error Safe Gate
                   if (snapshot.hasError) {
-                    return const Center(child: Text("⚠️ Network sync error occurred.", style: TextStyle(color: Colors.red)));
+                    return const Center(child: Text(" Network sync error occurred.", style: TextStyle(color: Colors.red)));
                   }
 
                   // Network Success Empty State Gate
