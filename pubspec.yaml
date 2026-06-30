@@ -1,0 +1,32 @@
+name: safe_entry
+description: "A digital visitor logging system for organizations"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+  fluttertoast: ^8.2.2
+  file_picker: ^8.1.0
+  path_provider: ^2.1.0
+  permission_handler: ^11.0.1
+  flutter_local_notifications: ^17.0.0
+  image_picker: ^1.0.7
+  image: ^4.1.6
+  http: ^1.1.0            # ← THIS IS THE NEW ONE
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
